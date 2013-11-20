@@ -1,0 +1,9 @@
+<h1>Contacts#new</h1>
+
+<%= form_for @contact do |f| %>
+<%= f.label :name %>
+<%= f.text_field :name %><br>
+<%= f.label :phone %>
+<%= f.text_field :phone %><br>
+<%= f.submit %>
+<% end %>
